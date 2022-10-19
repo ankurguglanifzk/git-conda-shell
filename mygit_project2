@@ -1,0 +1,116 @@
+Script started on 2022-08-10 12:40:41+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+(base) ]0;ankurguglani@TIGER03379: ~[01;32mankurguglani@TIGER03379[00m:[01;34m~[00m$ git clo[K[K[K[K[K[K[Kinit git
+Couldn't find an alternative telinit implementation to spawn.
+(base) ]0;ankurguglani@TIGER03379: ~[01;32mankurguglani@TIGER03379[00m:[01;34m~[00m$ git clone https://github.com/schacon/simplegit-progit
+Cloning into 'simplegit-progit'...
+remote: Enumerating objects: 13, done.[K
+remote: Total 13 (delta 0), reused 0 (delta 0), pack-reused 13[K
+Unpacking objects:   7% (1/13)Unpacking objects:  15% (2/13)Unpacking objects:  23% (3/13)Unpacking objects:  30% (4/13)Unpacking objects:  38% (5/13)Unpacking objects:  46% (6/13)Unpacking objects:  53% (7/13)Unpacking objects:  61% (8/13)Unpacking objects:  69% (9/13)Unpacking objects:  76% (10/13)Unpacking objects:  84% (11/13)Unpacking objects:  92% (12/13)Unpacking objects: 100% (13/13)Unpacking objects: 100% (13/13), 1.55 KiB | 528.00 KiB/s, done.
+(base) ]0;ankurguglani@TIGER03379: ~[01;32mankurguglani@TIGER03379[00m:[01;34m~[00m$ git log
+[?1h=[33mcommit 546a4bbc7f25b424a72d2d0ee8b694274c9299e0[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m[m
+Author: Ankur <ankur.guglani@tigeranalytics.com>[m
+Date:   Wed Aug 10 09:43:50 2022 +0530[m
+[m
+    Initial project version[m
+[K[?1l>(base) ]0;ankurguglani@TIGER03379: ~[01;32mankurguglani@TIGER03379[00m:[01;34m~[00m$ git log -p -1
+[?1h=[33mcommit 546a4bbc7f25b424a72d2d0ee8b694274c9299e0[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m[m
+Author: Ankur <ankur.guglani@tigeranalytics.com>[m
+Date:   Wed Aug 10 09:43:50 2022 +0530[m
+[m
+    Initial project version[m
+[m
+[1mdiff --git a/.cache/yarn/v6/npm-leveldown-5.6.0-16ba937bb2991c6094e13ac5a6898ee66d3eee98-integrity/node_modules/leveldow[m [1mn/deps/leveldb/leveldb-1.20/db/c_test.c b/.cache/yarn/v6/npm-leveldown-5.6.0-16ba937bb2991c6094e13ac5a6898ee66d3eee98-in[m [1mtegrity/node_modules/leveldown/deps/leveldb/leveldb-1.20/db/c_test.c[m[m
+[1mnew file mode 100644[m[m
+[1mindex 0000000..7cd5ee0[m[m
+[1m--- /dev/null[m[m
+[1m+++ b/.cache/yarn/v6/npm-leveldown-5.6.0-16ba937bb2991c6094e13ac5a6898ee66d3eee98-integrity/node_modules/leveldown/deps/[m [1mleveldb/leveldb-1.20/db/c_test.c[m[m
+[36m@@ -0,0 +1,390 @@[m[m
+[32m+[m[32m/* Copyright (c) 2011 The LevelDB Authors. All rights reserved.[m[m
+[32m+[m[32m   Use of this source code is governed by a BSD-style license that can be[m[m
+[32m+[m[32m   found in the LICENSE file. See the AUTHORS file for names of contributors. */[m[m
+[32m+[m[m
+[32m+[m[32m#include "leveldb/c.h"[m[m
+[32m+[m[m
+[32m+[m[32m#include <stddef.h>[m[m
+[32m+[m[32m#include <stdio.h>[m[m
+[32m+[m[32m#include <stdlib.h>[m[m
+[32m+[m[32m#include <string.h>[m[m
+[32m+[m[32m#include <sys/types.h>[m[m
+[32m+[m[32m#include <unistd.h>[m[m
+[32m+[m[m
+[32m+[m[32mconst char* phase = "";[m[m
+:[K[K[K:[K[K:[K[K[7mNo next tag  (press RETURN)[27m[30;1H[K[K:[K[K[32m+[m[32mstatic char dbname[200];[m[m
+:[K[K[32m+[m[m
+[32m+[m[32mstatic void StartPhase(const char* name) {[m[m
+[32m+[m[32m  fprintf(stderr, "=== Test %s\n", name);[m[m
+[32m+[m[32m  phase = name;[m[m
+[32m+[m[32m}[m[m
+[32m+[m[m
+[32m+[m[32mstatic const char* GetTempDir(void) {[m[m
+[32m+[m[32m    const char* ret = getenv("TEST_TMPDIR");[m[m
+[32m+[m[32m    if (ret == NULL || ret[0] == '\0')[m[m
+[32m+[m[32m        ret = "/tmp";[m[m
+[32m+[m[32m    return ret;[m[m
+[32m+[m[32m}[m[m
+[32m+[m[m
+[32m+[m[32m#define CheckNoError(err)                                               \[m[m
+[32m+[m[32m  if ((err) != NULL) {                                                  \[m[m
+[32m+[m[32m    fprintf(stderr, "%s:%d: %s: %s\n", __FILE__, __LINE__, phase, (err)); \[m[m
+[32m+[m[32m    abort();                                                            \[m[m
+[32m+[m[32m  }[m[m
+[32m+[m[m
+[32m+[m[32m#define CheckCondition(cond)                                            \[m[m
+[32m+[m[32m  if (!(cond)) {                                                        \[m[m
+[32m+[m[32m    fprintf(stderr, "%s:%d: %s: %s\n", __FILE__, __LINE__, phase, #cond); \[m[m
+[32m+[m[32m    abort();                                                            \[m[m
+[32m+[m[32m  }[m[m
+[32m+[m[m
+[32m+[m[32mstatic void CheckEqual(const char* expected, const char* v, size_t n) {[m[m
+[32m+[m[32m  if (expected == NULL && v == NULL) {[m[m
+[32m+[m[32m    // ok[m[m
+[32m+[m[32m  } else if (expected != NULL && v != NULL && n == strlen(expected) &&[m[m
+:[K[K[H[2J[HM[32m+[m[32mconst char* phase = "";[m[m
+[HM[32m+[m[m
+[HM[32m+[m[32m#include <unistd.h>[m[m
+[HM[32m+[m[32m#include <sys/types.h>[m[m
+[HM[32m+[m[32m#include <string.h>[m[m
+[HM[32m+[m[32m#include <stdlib.h>[m[m
+[HM[32m+[m[32m#include <stdio.h>[m[m
+[HM[32m+[m[32m#include <stddef.h>[m[m
+[HM[32m+[m[m
+[HM[32m+[m[32m#include "leveldb/c.h"[m[m
+[HM[32m+[m[m
+[HM[32m+[m[32m   found in the LICENSE file. See the AUTHORS file for names of contributors. */[m[m
+[HM[32m+[m[32m   Use of this source code is governed by a BSD-style license that can be[m[m
+[HM[32m+[m[32m/* Copyright (c) 2011 The LevelDB Authors. All rights reserved.[m[m
+[HM[36m@@ -0,0 +1,390 @@[m[m
+[HM[1mleveldb/leveldb-1.20/db/c_test.c[m[m
+[HM[1m+++ b/.cache/yarn/v6/npm-leveldown-5.6.0-16ba937bb2991c6094e13ac5a6898ee66d3eee98-integrity/node_modules/leveldown/deps/[m[HM[1m--- /dev/null[m[m
+[HM[1mindex 0000000..7cd5ee0[m[m
+[HM[1mnew file mode 100644[m[m
+[HM[1mtegrity/node_modules/leveldown/deps/leveldb/leveldb-1.20/db/c_test.c[m[m
+[HM[1mn/deps/leveldb/leveldb-1.20/db/c_test.c b/.cache/yarn/v6/npm-leveldown-5.6.0-16ba937bb2991c6094e13ac5a6898ee66d3eee98-in[m[HM[1mdiff --git a/.cache/yarn/v6/npm-leveldown-5.6.0-16ba937bb2991c6094e13ac5a6898ee66d3eee98-integrity/node_modules/leveldow[m[HM[m
+[HM    Initial project version[m
+[HM[m
+[HMDate:   Wed Aug 10 09:43:50 2022 +0530[m
+[HMAuthor: Ankur <ankur.guglani@tigeranalytics.com>[m
+[HM[33mcommit 546a4bbc7f25b424a72d2d0ee8b694274c9299e0[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m[m
+[30;1H[K:[K[K:[K[K:[K[K [KESCESC[KESCESC[K[32m+[m[32mstatic char dbname[200];[m[m
+:[K[K:[K[K:[K[K [KESCESC[K[[[K33[K:[K[K:[K[K [KESCESC[KOO[KFF[K...skipping...
+[32m+[m[32m#endif[m[41m[7m^M[27m[m[m
+[32m+[m[32m#if CYTHON_FAST_PYCCALL[m[41m[7m^M[27m[m[m
+[32m+[m[32m#define __Pyx_PyFastCFunction_Check(func)\[m[41m[7m^M[27m[m[m
+[32m+[m[32m    ((PyCFunction_Check(func) && (METH_FASTCALL == (PyCFunction_GET_FLAGS(func) & ~(METH_CLASS | METH_STATIC | METH_COE[m [32m[m[32mXIST | METH_KEYWORDS | METH_STACKLESS)))))[m[41m[7m^M[27m[m[m
+[32m+[m[32m#else[m[41m[7m^M[27m[m[m
+[32m+[m[32m#define __Pyx_PyFastCFunction_Check(func) 0[m[41m[7m^M[27m[m[m
+[32m+[m[32m#endif[m[41m[7m^M[27m[m[m
+[32m+[m[32m#if CYTHON_COMPILING_IN_PYPY && !defined(PyObject_Malloc)[m[41m[7m^M[27m[m[m
+[32m+[m[32m  #define PyObject_Malloc(s)   PyMem_Malloc(s)[m[41m[7m^M[27m[m[m
+[32m+[m[32m  #define PyObject_Free(p)     PyMem_Free(p)[m[41m[7m^M[27m[m[m
+[32m+[m[32m  #define PyObject_Realloc(p)  PyMem_Realloc(p)[m[41m[7m^M[27m[m[m
+[32m+[m[32m#endif[m[41m[7m^M[27m[m[m
+[32m+[m[32m#if CYTHON_COMPILING_IN_CPYTHON && PY_VERSION_HEX < 0x030400A1[m[41m[7m^M[27m[m[m
+[32m+[m[32m  #define PyMem_RawMalloc(n)           PyMem_Malloc(n)[m[41m[7m^M[27m[m[m
+[32m+[m[32m  #define PyMem_RawRealloc(p, n)       PyMem_Realloc(p, n)[m[41m[7m^M[27m[m[m
+[32m+[m[32m  #define PyMem_RawFree(p)             PyMem_Free(p)[m[41m[7m^M[27m[m[m
+[32m
