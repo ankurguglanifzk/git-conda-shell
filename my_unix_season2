@@ -1,0 +1,158 @@
+Script started on 2022-07-07 17:28:34+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="85" LINES="30"]
+]0;ankurguglani@TIGER03379: ~[01;32mankurguglani@TIGER03379[00m:[01;34m~[00m$ pwd
+/home/ankurguglani
+]0;ankurguglani@TIGER03379: ~[01;32mankurguglani@TIGER03379[00m:[01;34m~[00m$ ls -f[KF
+ [0m[01;32mMiniconda3-latest-Linux-x86_64.sh[0m*   my_unix_session1    'username@github'
+ my_unix_season2                      [01;34mshell-lesson-data[0m/  'username@github.pub'
+]0;ankurguglani@TIGER03379: ~[01;32mankurguglani@TIGER03379[00m:[01;34m~[00m$ ls -F /shell-lesso[Kp[Kon-data
+ls: cannot access '/shell-lesson-data': No such file or directory
+]0;ankurguglani@TIGER03379: ~[01;32mankurguglani@TIGER03379[00m:[01;34m~[00m$ c;[Klear
+[H[2J[3J]0;ankurguglani@TIGER03379: ~[01;32mankurguglani@TIGER03379[00m:[01;34m~[00m$ cs[Kd/shell-lesson/data[1Pdata-data[C[C[C[C/
+bash: cd/shell-lesson-data/: No such file or directory
+]0;ankurguglani@TIGER03379: ~[01;32mankurguglani@TIGER03379[00m:[01;34m~[00m$ clear
+[H[2J[3J]0;ankurguglani@TIGER03379: ~[01;32mankurguglani@TIGER03379[00m:[01;34m~[00m$ \[Kls -F shell-lesson-data
+[0m[01;34mexercise-data[0m/  [01;34mnorth-pacific-gyre[0m/
+]0;ankurguglani@TIGER03379: ~[01;32mankurguglani@TIGER03379[00m:[01;34m~[00m$ pwd
+/home/ankurguglani
+]0;ankurguglani@TIGER03379: ~[01;32mankurguglani@TIGER03379[00m:[01;34m~[00m$ cd
+]0;ankurguglani@TIGER03379: ~[01;32mankurguglani@TIGER03379[00m:[01;34m~[00m$ cs /shell-lesson-data/excers[Kcised[K-data
+
+Command 'cs' not found, but can be installed with:
+
+sudo apt install csound
+
+]0;ankurguglani@TIGER03379: ~[01;32mankurguglani@TIGER03379[00m:[01;34m~[00m$ cs /shell-lesson-data/excercise-data[1P /shell-lesson-data/excercise-data[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd /shell-lesson-data/excercise-data[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+bash: cd: /shell-lesson-data/excercise-data: No such file or directory
+]0;ankurguglani@TIGER03379: ~[01;32mankurguglani@TIGER03379[00m:[01;34m~[00m$ cd /shell-lesson-data/excercise-data[1Pshell-lesson-data/excercise-data[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+bash: cd: shell-lesson-data/excercise-data: No such file or directory
+]0;ankurguglani@TIGER03379: ~[01;32mankurguglani@TIGER03379[00m:[01;34m~[00m$ cd shell-lesson-data/excercise-data[1Percise-data
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data[00m$ p[K
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data[00m$ pwd
+/home/ankurguglani/shell-lesson-data/exercise-data
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data[00m$ clear
+[H[2J[3J]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data[00m$ script -a ~/MY_UNIX_SESSIO N[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[Kmy-[K_unix_sessio n2
+Script started, file is /home/ankurguglani/my_unix_session2
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data[00m$ pwd
+/home/ankurguglani/shell-lesson-data/exercise-data
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data[00m$ cd /home/ankurguglani/shel l-lesson-data
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data[00m$ pwd
+/home/ankurguglani/shell-lesson-data
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data[00m$ ls -F
+[0m[01;34mexercise-data[0m/  [01;34mnorth-pacific-gyre[0m/
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data[00m$ cs ~/shell-lesson-data
+
+Command 'cs' not found, but can be installed with:
+
+sudo apt install csound
+
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data[00m$ cs ~/shell-lesson-data[1P ~/shell-lesson-datad ~/shell-lesson-data
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data[00m$ cd exercise-data/creatures
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data/creatures[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data/creatures[00m$ cd =[K-
+/home/ankurguglani/shell-lesson-data
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data[00m$ ls -F /
+[0m[01;36mbin[0m@   [01;34metc[0m/   [01;36mlib[0m@    [01;36mlibx32[0m@      [01;34mmnt[0m/   [01;34mroot[0m/  [01;34msnap[0m/  [30;42mtmp[0m/
+[01;34mboot[0m/  [01;34mhome[0m/  [01;36mlib32[0m@  [01;34mlost+found[0m/  [01;34mopt[0m/   [01;34mrun[0m/   [01;34msrv[0m/   [01;34musr[0m/
+[01;34mdev[0m/   [01;32minit[0m*  [01;36mlib64[0m@  [01;34mmedia[0m/       [01;34mproc[0m/  [01;36msbin[0m@  [01;34msys[0m/   [01;34mvar[0m/
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data[00m$ CS[K[Kcd ~/shell-lessson-data
+bash: cd: /home/ankurguglani/shell-lessson-data: No such file or directory
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data[00m$ cd ~/shell-lessson-data[1Pon-data
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data[00m$ ls -s exercise-data
+total 24
+4 [0m[01;34manimal-counts[0m  4 numbers.txt                  4 [01;34mproteins[0m
+4 [01;34mcreatures[0m      4 numbers.txt:Zone.Identifier  4 [01;34mwriting[0m
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data[00m$ ls _S[1PS-S[C exercise-data
+[0m[01;34manimal-counts[0m  [01;34mproteins[0m  numbers.txt:Zone.Identifier
+[01;34mcreatures[0m      [01;34mwriting[0m   numbers.txt
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data[00m$ ls -F /
+[0m[01;36mbin[0m@   [01;34metc[0m/   [01;36mlib[0m@    [01;36mlibx32[0m@      [01;34mmnt[0m/   [01;34mroot[0m/  [01;34msnap[0m/  [30;42mtmp[0m/
+[01;34mboot[0m/  [01;34mhome[0m/  [01;36mlib32[0m@  [01;34mlost+found[0m/  [01;34mopt[0m/   [01;34mrun[0m/   [01;34msrv[0m/   [01;34musr[0m/
+[01;34mdev[0m/   [01;32minit[0m*  [01;36mlib64[0m@  [01;34mmedia[0m/       [01;34mproc[0m/  [01;36msbin[0m@  [01;34msys[0m/   [01;34mvar[0m/
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data[00m$ ls north-pacific-gyre/
+NENE01729A.txt                  NENE01978A.txt:Zone.Identifier
+NENE01729A.txt:Zone.Identifier  NENE01978B.txt
+NENE01729B.txt                  NENE01978B.txt:Zone.Identifier
+NENE01729B.txt:Zone.Identifier  NENE02018B.txt
+NENE01736A.txt                  NENE02018B.txt:Zone.Identifier
+NENE01736A.txt:Zone.Identifier  NENE02040A.txt
+NENE01751A.txt                  NENE02040A.txt:Zone.Identifier
+NENE01751A.txt:Zone.Identifier  NENE02040B.txt
+NENE01751B.txt                  NENE02040B.txt:Zone.Identifier
+NENE01751B.txt:Zone.Identifier  NENE02040Z.txt
+NENE01812A.txt                  NENE02040Z.txt:Zone.Identifier
+NENE01812A.txt:Zone.Identifier  NENE02043A.txt
+NENE01843A.txt                  NENE02043A.txt:Zone.Identifier
+NENE01843A.txt:Zone.Identifier  NENE02043B.txt
+NENE01843B.txt                  NENE02043B.txt:Zone.Identifier
+NENE01843B.txt:Zone.Identifier  goodiff.sh
+NENE01971Z.txt                  goodiff.sh:Zone.Identifier
+NENE01971Z.txt:Zone.Identifier  goostats.sh
+NENE01978A.txt                  goostats.sh:Zone.Identifier
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data[00m$ ls north-pacific-gyre/
+NENE01729A.txt                  NENE01978A.txt:Zone.Identifier
+NENE01729A.txt:Zone.Identifier  NENE01978B.txt
+NENE01729B.txt                  NENE01978B.txt:Zone.Identifier
+NENE01729B.txt:Zone.Identifier  NENE02018B.txt
+NENE01736A.txt                  NENE02018B.txt:Zone.Identifier
+NENE01736A.txt:Zone.Identifier  NENE02040A.txt
+NENE01751A.txt                  NENE02040A.txt:Zone.Identifier
+NENE01751A.txt:Zone.Identifier  NENE02040B.txt
+NENE01751B.txt                  NENE02040B.txt:Zone.Identifier
+NENE01751B.txt:Zone.Identifier  NENE02040Z.txt
+NENE01812A.txt                  NENE02040Z.txt:Zone.Identifier
+NENE01812A.txt:Zone.Identifier  NENE02043A.txt
+NENE01843A.txt                  NENE02043A.txt:Zone.Identifier
+NENE01843A.txt:Zone.Identifier  NENE02043B.txt
+NENE01843B.txt                  NENE02043B.txt:Zone.Identifier
+NENE01843B.txt:Zone.Identifier  goodiff.sh
+NENE01971Z.txt                  goodiff.sh:Zone.Identifier
+NENE01971Z.txt:Zone.Identifier  goostats.sh
+NENE01978A.txt                  goostats.sh:Zone.Identifier
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data[00m$ ls north-pacific-gyre/goo
+goodiff.sh                   goostats.sh
+goodiff.sh:Zone.Identifier   goostats.sh:Zone.Identifier
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data[00m$ ls north-pacific-gyre/goo
+ls: cannot access 'north-pacific-gyre/goo': No such file or directory
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data[00m$ exit
+exit
+Script done, file is /home/ankurguglani/my_unix_session2
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data[00m$ pwd
+/home/ankurguglani/shell-lesson-data/exercise-data
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data[00m$ cd[K[Kscript  -a  ~/,[Kmy_unic[Kx_sess iom[Kn3
+Script started, file is /home/ankurguglani/my_unix_session3
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data[00m$ pwd
+/home/ankurguglani/shell-lesson-data/exercise-data
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data[00m$ cs [K[Kd exercise-data/writing/
+bash: cd: exercise-data/writing/: No such file or directory
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data[00m$ cd exercise-data/writing/[1P/writing/[1P/writing/[1P/writing/[1P/writing/[1P/writing/[1P/writing/[1P/writing/[1P/writing/[1P/writing/[1P/writing/[1P/writing/[1P/writing/[1P/writing/[1P/writing/[C[1Pwriting/ writing/
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data/writing[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ ls -F
+LittleWomen.txt                  haiku.txt
+LittleWomen.txt:Zone.Identifier  haiku.txt:Zone.Identifier
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data/writing[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ mkdir thesis
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data/writing[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ ls -F
+LittleWomen.txt                  haiku.txt                  [0m[01;34mthesis[0m/
+LittleWomen.txt:Zone.Identifier  haiku.txt:Zone.Identifier
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data/writing[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ ls -F thesis
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data/writing[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ mkdir -p ../projec t/data ,,/project/results
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data/writing[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ ls -FR ../project
+../project:
+[0m[01;34mdata[0m/
+
+../project/data:
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data/writing[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ cs[Kd thesis
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data/writing/thesis[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data/writing/thesis[00m$ nano draft. txt
+[?2004h[?1049h[22;0;0t[1;30r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[28;37H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 4.8                          draft.txt                                    [1;84H(B[m[29d(B[0;7m^G(B[m Get Help   (B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify    (B[0;7m^C(B[m Cur Pos[30d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste Text (B[0;7m^T(B[m To Spell   (B[0;7m^_(B[m Go To Line[28d[2d[39;49m(B[m[?12l[?25h[?25l[1;76H(B[0;7mModified(B[m[2dl[?12l[?25h[?25ls[?12l[?25h[?25l[3d[?12l[?25h[?25lm[?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25la[?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25ls[?12l[?25h[?25l [?12l[?25h[?25lm[?12l[?25h[?25ly[?12l[?25h[?25l [?12l[?25h[?25lw[?12l[?25h[?25li[?12l[?25h[?25lf[?12l[?25h[?25le[?12l[?25h[?25l[29;15H       (B[0;7mM-D(B[m DOS Format       (B[0;7mM-A(B[m Append           (B[0;7mM-B(B[m Backup File[K[30;2H(B[0;7mC(B[m Cancel            (B[0;7mM-M(B[m Mac Format       (B[0;7mM-P(B[m Prepend          (B[0;7m^T(B[m To Files[K[28d(B[0;7mFile Name to Write: draft.txt                                                        [28;1H(B[m[28;30H[?12l[?25h[?25l[28;30H[?12l[?25h[?25l[28;30H[?12l[?25h[?25l [1K (B[0;7m[ Writing to FIFO... ](B[m[K[28;32H    (B[0;7m[ Writing... ](B[m[K[1;76H(B[0;7m        (B[m[28;35H(B[0;7m[ Wrote 2 lines ](B[m[29;15H(B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut Text   (B[0;7m^J(B[m Justify    (B[0;7m^C(B[m Cur Pos[30;2H(B[0;7mX(B[m Exit       (B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste Text (B[0;7m^T(B[m To Spell   (B[0;7m^_(B[m Go To Line[28d[3;16H[?12l[?25h[?25l[28d[J[30d[?12l[?25h[30;1H[?1049l[23;0;0t[?1l>[?2004l]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data/writing/thesis[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data/writing/thesis[00m$ ls
+draft.txt
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data/writing/thesis[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data/writing/thesis[00m$ cd ~/shell- lesson-data/exercise-data/writing
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data/writing[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ mv thesis/draft.tc [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cx tvthesis/quotes.txt
+mv: missing destination file operand after 'thesis/draft.txtvthesis/quotes.txt'
+Try 'mv --help' for more information.
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data/writing[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ mv thesis/draft.txtvthesis/quotes.txt[1Pthesis/quotes.txt[C thesis/quotes.txt[C[C
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data/writing[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ ls thesis
+quotes.txt
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data/writing[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ mv thesis/quotes.t xt
+mv: missing destination file operand after 'thesis/quotes.txt'
+Try 'mv --help' for more information.
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data/writing[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ mv thesis/quotes.txt[K[A]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data/writing[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ mv thesis/quotes.txt[K[A]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data/writing[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ mv thesis/quotes.txt [K[A]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data/writing[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ mv thesis/quotes.txt[K]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data/writing[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ mv thesis/quotes.txt[K]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data/writing[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ mv thesis/quotes.txt[K]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data/writing[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ mv thesis/quotes.txt[K]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data/writing[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ mv thesis/quotes.txt[K]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data/writing[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ mv thesis/quotes.txt[K]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data/writing[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ mv thesis/quotes.txt[K]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data/writing[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ mv thesis/quotes.txt .
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data/writing[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-d

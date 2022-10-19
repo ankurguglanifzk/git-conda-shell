@@ -1,0 +1,558 @@
+Script started on 2022-10-19 19:30:14+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="108" LINES="28"]
+(base) ]0;ankurguglani@TIGER03379: ~[01;32mankurguglani@TIGER03379[00m:[01;34m~[00m$ conda --version
+conda 4.13.0
+(base) ]0;ankurguglani@TIGER03379: ~[01;32mankurguglani@TIGER03379[00m:[01;34m~[00m$ conda update conda
+Collecting package metadata (current_repodata.json): - \ | / - \ | / - \ | / - \ | done
+Solving environment: - \ | / - \ | / - \ done
+
+## Package Plan ##
+
+  environment location: /home/ankurguglani/miniconda3
+
+  added / updated specs:
+    - conda
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    bottleneck-1.3.5           |   py39h7deecbd_0         115 KB
+    certifi-2022.9.24          |   py39h06a4308_0         154 KB
+    cffi-1.15.1                |   py39h74dc2b5_0         228 KB
+    conda-22.9.0               |   py39h06a4308_0         884 KB
+    conda-package-handling-1.9.0|   py39h5eee18b_0         887 KB
+    cryptography-37.0.1        |   py39h9ce1e76_0         1.3 MB
+    expat-2.4.9                |       h6a678d5_0         156 KB
+    fftw-3.3.9                 |       h27cfd23_1         2.3 MB
+    idna-3.4                   |   py39h06a4308_0          93 KB
+    libgfortran-ng-11.2.0      |       h00389a5_1          20 KB
+    libgfortran5-11.2.0        |       h1234567_1         2.0 MB
+    libwebp-1.2.4              |       h11a3e52_0          79 KB
+    libwebp-base-1.2.4         |       h5eee18b_0         347 KB
+    numexpr-2.8.3              |   py39h807cd23_0         124 KB
+    numpy-1.23.3               |   py39h14f4228_0          10 KB
+    numpy-base-1.23.3          |   py39h31eccc5_0         5.6 MB
+    pillow-9.2.0               |   py39hace64e9_1         670 KB
+    ply-3.11                   |   py39h06a4308_0          81 KB
+    pyparsing-3.0.9            |   py39h06a4308_0         151 KB
+    pyqt-5.15.7                |   py39h6a678d5_1         5.1 MB
+    pyqt5-sip-12.11.0          |   py39h6a678d5_1          87 KB
+    requests-2.28.1            |   py39h06a4308_0          92 KB
+    scipy-1.9.1                |   py39h14f4228_0        19.4 MB
+    setuptools-63.4.1          |   py39h06a4308_0         1.1 MB
+    sip-6.6.2                  |   py39h6a678d5_0         423 KB
+    sqlite-3.39.3              |       h5082296_0         1.1 MB
+    toolz-0.11.2               |     pyhd3eb1b0_0          49 KB
+    tornado-6.2                |   py39h5eee18b_0         590 KB
+    tqdm-4.64.1                |   py39h06a4308_0         125 KB
+    tzdata-2022e               |       h04d1e81_0         107 KB
+    urllib3-1.26.11            |   py39h06a4308_0         182 KB
+    xz-5.2.6                   |       h5eee18b_0         394 KB
+    zlib-1.2.12                |       h5eee18b_3         103 KB
+    ------------------------------------------------------------
+                                           Total:        43.8 MB
+
+The following NEW packages will be INSTALLED:
+
+  brotli-bin         pkgs/main/linux-64::brotli-bin-1.0.9-h5eee18b_7
+  fftw               pkgs/main/linux-64::fftw-3.3.9-h27cfd23_1
+  krb5               pkgs/main/linux-64::krb5-1.19.2-hac12032_0
+  lerc               pkgs/main/linux-64::lerc-3.0-h295c915_0
+  libbrotlicommon    pkgs/main/linux-64::libbrotlicommon-1.0.9-h5eee18b_7
+  libbrotlidec       pkgs/main/linux-64::libbrotlidec-1.0.9-h5eee18b_7
+  libbrotlienc       pkgs/main/linux-64::libbrotlienc-1.0.9-h5eee18b_7
+  libclang           pkgs/main/linux-64::libclang-10.0.1-default_hb85057a_2
+  libdeflate         pkgs/main/linux-64::libdeflate-1.8-h7f8727e_5
+  libedit            pkgs/main/linux-64::libedit-3.1.20210910-h7f8727e_0
+  libevent           pkgs/main/linux-64::libevent-2.1.12-h8f2d780_0
+  libgfortran5       pkgs/main/linux-64::libgfortran5-11.2.0-h1234567_1
+  libllvm10          pkgs/main/linux-64::libllvm10-10.0.1-hbcb73fb_5
+  libpq              pkgs/main/linux-64::libpq-12.9-h16c4e8d_3
+  libxkbcommon       pkgs/main/linux-64::libxkbcommon-1.0.1-hfa300c1_0
+  libxslt            pkgs/main/linux-64::libxslt-1.1.35-h4e12654_0
+  nspr               pkgs/main/linux-64::nspr-4.33-h295c915_0
+  nss                pkgs/main/linux-64::nss-3.74-h0370c37_0
+  ply                pkgs/main/linux-64::ply-3.11-py39h06a4308_0
+  pyqt5-sip          pkgs/main/linux-64::pyqt5-sip-12.11.0-py39h6a678d5_1
+  qt-main            pkgs/main/linux-64::qt-main-5.15.2-h327a75a_7
+  qt-webengine       pkgs/main/linux-64::qt-webengine-5.15.9-hd2b0992_4
+  qtwebkit           pkgs/main/linux-64::qtwebkit-5.212-h4eab89a_4
+  toml               pkgs/main/noarch::toml-0.10.2-pyhd3eb1b0_0
+  toolz              pkgs/main/noarch::toolz-0.11.2-pyhd3eb1b0_0
+
+The following packages will be REMOVED:
+
+  colorama-0.4.4-pyhd3eb1b0_0
+  conda-content-trust-0.1.1-pyhd3eb1b0_0
+  libgfortran4-7.5.0-ha8ba4b0_17
+  qt-5.9.7-h5867ecd_1
+
+The following packages will be UPDATED:
+
+  _openmp_mutex                                   4.5-1_gnu --> 5.1-1_gnu
+  bottleneck                           1.3.4-py39hce1f21e_0 --> 1.3.5-py39h7deecbd_0
+  brotli                                   1.0.9-he6710b0_2 --> 1.0.9-h5eee18b_7
+  certifi                          2022.6.15-py39h06a4308_0 --> 2022.9.24-py39h06a4308_0
+  cffi                                1.15.0-py39hd667e15_1 --> 1.15.1-py39h74dc2b5_0
+  conda                               4.13.0-py39h06a4308_0 --> 22.9.0-py39h06a4308_0
+  conda-package-han~                   1.8.1-py39h7f8727e_0 --> 1.9.0-py39h5eee18b_0
+  cryptography                        36.0.0-py39h9ce1e76_0 --> 37.0.1-py39h9ce1e76_0
+  expat                                    2.4.4-h295c915_0 --> 2.4.9-h6a678d5_0
+  idna               pkgs/main/noarch::idna-3.3-pyhd3eb1b0~ --> pkgs/main/linux-64::idna-3.4-py39h06a4308_0
+  ld_impl_linux-64                        2.35.1-h7274673_9 --> 2.38-h1181459_1
+  libgcc-ng                               9.3.0-h5101ec6_17 --> 11.2.0-h1234567_1
+  libgfortran-ng                          7.5.0-ha8ba4b0_17 --> 11.2.0-h00389a5_1
+  libgomp                                 9.3.0-h5101ec6_17 --> 11.2.0-h1234567_1
+  libstdcxx-ng                            9.3.0-hd4cf53a_17 --> 11.2.0-h1234567_1
+  libtiff                                  4.2.0-h2818925_1 --> 4.4.0-hecacb30_0
+  libwebp                                  1.2.2-h55f646e_0 --> 1.2.4-h11a3e52_0
+  libwebp-base                             1.2.2-h7f8727e_0 --> 1.2.4-h5eee18b_0
+  ncurses                                    6.3-h7f8727e_2 --> 6.3-h5eee18b_3
+  numexpr                              2.8.1-py39h6abb31d_0 --> 2.8.3-py39h807cd23_0
+  numpy                               1.21.5-py39he7a7128_2 --> 1.23.3-py39h14f4228_0
+  numpy-base                          1.21.5-py39hf524024_2 --> 1.23.3-py39h31eccc5_0
+  pillow                               9.0.1-py39h22f2fdc_0 --> 9.2.0-py39hace64e9_1
+  pyparsing          pkgs/main/noarch::pyparsing-3.0.4-pyh~ --> pkgs/main/linux-64::pyparsing-3.0.9-py39h06a4308_0
+  pyqt                                 5.9.2-py39h2531618_6 --> 5.15.7-py39h6a678d5_1
+  requests           pkgs/main/noarch::requests-2.27.1-pyh~ --> pkgs/main/linux-64::requests-2.28.1-py39h06a4308_0
+  scipy                                1.7.3-py39hc147768_0 --> 1.9.1-py39h14f4228_0
+  setuptools                          61.2.0-py39h06a4308_0 --> 63.4.1-py39h06a4308_0
+  sip                                4.19.13-py39h295c915_0 --> 6.6.2-py39h6a678d5_0
+  sqlite                                  3.38.2-hc218d9a_0 --> 3.39.3-h5082296_0
+  tk                                      8.6.11-h1ccaba5_0 --> 8.6.12-h1ccaba5_0
+  tornado                                6.1-py39h27cfd23_0 --> 6.2-py39h5eee18b_0
+  tqdm               pkgs/main/noarch::tqdm-4.63.0-pyhd3eb~ --> pkgs/main/linux-64::tqdm-4.64.1-py39h06a4308_0
+  tzdata                                   2022a-hda174b7_0 --> 2022e-h04d1e81_0
+  urllib3            pkgs/main/noarch::urllib3-1.26.8-pyhd~ --> pkgs/main/linux-64::urllib3-1.26.11-py39h06a4308_0
+  xz                                       5.2.5-h7b6447c_0 --> 5.2.6-h5eee18b_0
+  zlib                                    1.2.12-h7f8727e_1 --> 1.2.12-h5eee18b_3
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+numexpr-2.8.3        | 124 KB    |                                                                   |   0% numexpr-2.8.3        | 124 KB    | ########3                                                         |  13% numexpr-2.8.3        | 124 KB    | ################################################################# | 100% numexpr-2.8.3        | 124 KB    | ################################################################# | 100% 
+libwebp-base-1.2.4   | 347 KB    |                                                                   |   0% libwebp-base-1.2.4   | 347 KB    | #################9                                                |  28% libwebp-base-1.2.4   | 347 KB    | ################################################################# | 100% 
+cryptography-37.0.1  | 1.3 MB    |                                                                   |   0% cryptography-37.0.1  | 1.3 MB    | #######################################################1          |  85% cryptography-37.0.1  | 1.3 MB    | ################################################################# | 100% 
+requests-2.28.1      | 92 KB     |                                                                   |   0% requests-2.28.1      | 92 KB     | ################################################################# | 100% 
+libgfortran5-11.2.0  | 2.0 MB    |                                                                   |   0% libgfortran5-11.2.0  | 2.0 MB    | ###############################9                                  |  49% libgfortran5-11.2.0  | 2.0 MB    | ################################################################# | 100% 
+zlib-1.2.12          | 103 KB    |                                                                   |   0% zlib-1.2.12          | 103 KB    | ################################################################# | 100% 
+conda-22.9.0         | 884 KB    |                                                                   |   0% conda-22.9.0         | 884 KB    | ################################################################# | 100% 
+sip-6.6.2            | 423 KB    |                                                                   |   0% sip-6.6.2            | 423 KB    | ################################################################# | 100% 
+numpy-base-1.23.3    | 5.6 MB    |                                                                   |   0% numpy-base-1.23.3    | 5.6 MB    | ############4                                                     |  19% numpy-base-1.23.3    | 5.6 MB    | ###################################################4              |  79% numpy-base-1.23.3    | 5.6 MB    | ################################################################# | 100% 
+pyqt5-sip-12.11.0    | 87 KB     |                                                                   |   0% pyqt5-sip-12.11.0    | 87 KB     | ################################################################# | 100% 
+urllib3-1.26.11      | 182 KB    |                                                                   |   0% urllib3-1.26.11      | 182 KB    | ################################################################# | 100% 
+conda-package-handli | 887 KB    |                                                                   |   0% conda-package-handli | 887 KB    | ################################################################# | 100% 
+libwebp-1.2.4        | 79 KB     |                                                                   |   0% libwebp-1.2.4        | 79 KB     | ################################################################# | 100% 
+certifi-2022.9.24    | 154 KB    |                                                                   |   0% certifi-2022.9.24    | 154 KB    | ################################################################# | 100% 
+idna-3.4             | 93 KB     |                                                                   |   0% idna-3.4             | 93 KB     | ################################################################# | 100% 
+scipy-1.9.1          | 19.4 MB   |                                                                   |   0% scipy-1.9.1          | 19.4 MB   | #####3                                                            |   8% scipy-1.9.1          | 19.4 MB   | ###############4                                                  |  24% scipy-1.9.1          | 19.4 MB   | #####################8                                            |  34% scipy-1.9.1          | 19.4 MB   | ###########################4                                      |  42% scipy-1.9.1          | 19.4 MB   | #################################                                 |  51% scipy-1.9.1          | 19.4 MB   | ######################################                            |  59% scipy-1.9.1          | 19.4 MB   | ###############################################6                  |  73% scipy-1.9.1          | 19.4 MB   | ######################################################            |  83% scipy-1.9.1          | 19.4 MB   | ###########################################################6      |  92% scipy-1.9.1          | 19.4 MB   | ################################################################# | 100% scipy-1.9.1          | 19.4 MB   | ################################################################# | 100% 
+tornado-6.2          | 590 KB    |                                                                   |   0% tornado-6.2          | 590 KB    | ################################################################# | 100% tornado-6.2          | 590 KB    | ################################################################# | 100% 
+ply-3.11             | 81 KB     |                                                                   |   0% ply-3.11             | 81 KB     | ################################################################# | 100% 
+pillow-9.2.0         | 670 KB    |                                                                   |   0% pillow-9.2.0         | 670 KB    | ################################################################# | 100% pillow-9.2.0         | 670 KB    | ################################################################# | 100% 
+libgfortran-ng-11.2. | 20 KB     |                                                                   |   0% libgfortran-ng-11.2. | 20 KB     | ################################################################# | 100% 
+bottleneck-1.3.5     | 115 KB    |                                                                   |   0% bottleneck-1.3.5     | 115 KB    | ################################################################# | 100% 
+sqlite-3.39.3        | 1.1 MB    |                                                                   |   0% sqlite-3.39.3        | 1.1 MB    | ########################################################6         |  87% sqlite-3.39.3        | 1.1 MB    | ################################################################# | 100% 
+pyparsing-3.0.9      | 151 KB    |                                                                   |   0% pyparsing-3.0.9      | 151 KB    | ################################################################# | 100% 
+cffi-1.15.1          | 228 KB    |                                                                   |   0% cffi-1.15.1          | 228 KB    | ################################################################# | 100% 
+fftw-3.3.9           | 2.3 MB    |                                                                   |   0% fftw-3.3.9           | 2.3 MB    | ###################1                                              |  29% fftw-3.3.9           | 2.3 MB    | #############################################################     |  94% fftw-3.3.9           | 2.3 MB    | ################################################################# | 100% 
+tqdm-4.64.1          | 125 KB    |                                                                   |   0% tqdm-4.64.1          | 125 KB    | ################################################################# | 100% 
+tzdata-2022e         | 107 KB    |                                                                   |   0% tzdata-2022e         | 107 KB    | ################################################################# | 100% 
+xz-5.2.6             | 394 KB    |                                                                   |   0% xz-5.2.6             | 394 KB    | ################################################################# | 100% 
+setuptools-63.4.1    | 1.1 MB    |                                                                   |   0% setuptools-63.4.1    | 1.1 MB    | #######################################3                          |  61% setuptools-63.4.1    | 1.1 MB    | ################################################################# | 100% 
+pyqt-5.15.7          | 5.1 MB    |                                                                   |   0% pyqt-5.15.7          | 5.1 MB    | #########2                                                        |  14% pyqt-5.15.7          | 5.1 MB    | ############################5                                     |  44% pyqt-5.15.7          | 5.1 MB    | ###############################################8                  |  74% pyqt-5.15.7          | 5.1 MB    | ################################################################# | 100% pyqt-5.15.7          | 5.1 MB    | ################################################################# | 100% 
+numpy-1.23.3         | 10 KB     |                                                                   |   0% numpy-1.23.3         | 10 KB     | ################################################################# | 100% 
+expat-2.4.9          | 156 KB    |                                                                   |   0% expat-2.4.9          | 156 KB    | ################################################################# | 100% 
+toolz-0.11.2         | 49 KB     |                                                                   |   0% toolz-0.11.2         | 49 KB     | ################################################################# | 100% 
+Preparing transaction: / - \ | / - \ done
+Verifying transaction: / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ done
+Executing transaction: / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ done
+(base) ]0;ankurguglani@TIGER03379: ~[01;32mankurguglani@TIGER03379[00m:[01;34m~[00m$ conda create --name snowflakes biopython
+Collecting package metadata (current_repodata.json): - \ | / - done
+Solving environment: | / - done
+
+## Package Plan ##
+
+  environment location: /home/ankurguglani/miniconda3/envs/snowflakes
+
+  added / updated specs:
+    - biopython
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    biopython-1.78             |  py310h7f8727e_0         2.4 MB
+    certifi-2022.9.24          |  py310h06a4308_0         154 KB
+    numpy-1.23.3               |  py310hd5efca6_0          10 KB
+    numpy-base-1.23.3          |  py310h8e6c178_0         5.6 MB
+    pip-22.2.2                 |  py310h06a4308_0         2.4 MB
+    python-3.10.6              |       haa1d7c7_0        21.9 MB
+    setuptools-63.4.1          |  py310h06a4308_0         1.1 MB
+    ------------------------------------------------------------
+                                           Total:        33.5 MB
+
+The following NEW packages will be INSTALLED:
+
+  _libgcc_mutex      pkgs/main/linux-64::_libgcc_mutex-0.1-main None
+  _openmp_mutex      pkgs/main/linux-64::_openmp_mutex-5.1-1_gnu None
+  biopython          pkgs/main/linux-64::biopython-1.78-py310h7f8727e_0 None
+  blas               pkgs/main/linux-64::blas-1.0-mkl None
+  bzip2              pkgs/main/linux-64::bzip2-1.0.8-h7b6447c_0 None
+  ca-certificates    pkgs/main/linux-64::ca-certificates-2022.07.19-h06a4308_0 None
+  certifi            pkgs/main/linux-64::certifi-2022.9.24-py310h06a4308_0 None
+  intel-openmp       pkgs/main/linux-64::intel-openmp-2021.4.0-h06a4308_3561 None
+  ld_impl_linux-64   pkgs/main/linux-64::ld_impl_linux-64-2.38-h1181459_1 None
+  libffi             pkgs/main/linux-64::libffi-3.3-he6710b0_2 None
+  libgcc-ng          pkgs/main/linux-64::libgcc-ng-11.2.0-h1234567_1 None
+  libgomp            pkgs/main/linux-64::libgomp-11.2.0-h1234567_1 None
+  libstdcxx-ng       pkgs/main/linux-64::libstdcxx-ng-11.2.0-h1234567_1 None
+  libuuid            pkgs/main/linux-64::libuuid-1.0.3-h7f8727e_2 None
+  mkl                pkgs/main/linux-64::mkl-2021.4.0-h06a4308_640 None
+  mkl-service        pkgs/main/linux-64::mkl-service-2.4.0-py310h7f8727e_0 None
+  mkl_fft            pkgs/main/linux-64::mkl_fft-1.3.1-py310hd6ae3a3_0 None
+  mkl_random         pkgs/main/linux-64::mkl_random-1.2.2-py310h00e6091_0 None
+  ncurses            pkgs/main/linux-64::ncurses-6.3-h5eee18b_3 None
+  numpy              pkgs/main/linux-64::numpy-1.23.3-py310hd5efca6_0 None
+  numpy-base         pkgs/main/linux-64::numpy-base-1.23.3-py310h8e6c178_0 None
+  openssl            pkgs/main/linux-64::openssl-1.1.1q-h7f8727e_0 None
+  pip                pkgs/main/linux-64::pip-22.2.2-py310h06a4308_0 None
+  python             pkgs/main/linux-64::python-3.10.6-haa1d7c7_0 None
+  readline           pkgs/main/linux-64::readline-8.1.2-h7f8727e_1 None
+  setuptools         pkgs/main/linux-64::setuptools-63.4.1-py310h06a4308_0 None
+  six                pkgs/main/noarch::six-1.16.0-pyhd3eb1b0_1 None
+  sqlite             pkgs/main/linux-64::sqlite-3.39.3-h5082296_0 None
+  tk                 pkgs/main/linux-64::tk-8.6.12-h1ccaba5_0 None
+  tzdata             pkgs/main/noarch::tzdata-2022e-h04d1e81_0 None
+  wheel              pkgs/main/noarch::wheel-0.37.1-pyhd3eb1b0_0 None
+  xz                 pkgs/main/linux-64::xz-5.2.6-h5eee18b_0 None
+  zlib               pkgs/main/linux-64::zlib-1.2.12-h5eee18b_3 None
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+numpy-1.23.3         | 10 KB     |                                                                   |   0% numpy-1.23.3         | 10 KB     | ################################################################# | 100% numpy-1.23.3         | 10 KB     | ################################################################# | 100% 
+numpy-base-1.23.3    | 5.6 MB    |                                                                   |   0% numpy-base-1.23.3    | 5.6 MB    | 7                                                                 |   1% numpy-base-1.23.3    | 5.6 MB    | #####9                                                            |   9% numpy-base-1.23.3    | 5.6 MB    | ################################8                                 |  51% numpy-base-1.23.3    | 5.6 MB    | ################################################7                 |  75% numpy-base-1.23.3    | 5.6 MB    | ################################################################# | 100% numpy-base-1.23.3    | 5.6 MB    | ################################################################# | 100% 
+setuptools-63.4.1    | 1.1 MB    |                                                                   |   0% setuptools-63.4.1    | 1.1 MB    | ############3                                                     |  19% setuptools-63.4.1    | 1.1 MB    | ################################################################# | 100% 
+biopython-1.78       | 2.4 MB    |                                                                   |   0% biopython-1.78       | 2.4 MB    | 4                                                                 |   1% biopython-1.78       | 2.4 MB    | ###4                                                              |   5% biopython-1.78       | 2.4 MB    | ########1                                                         |  13% biopython-1.78       | 2.4 MB    | #############3                                                    |  20% biopython-1.78       | 2.4 MB    | ################7                                                 |  26% biopython-1.78       | 2.4 MB    | #####################8                                            |  34% biopython-1.78       | 2.4 MB    | #########################7                                        |  40% biopython-1.78       | 2.4 MB    | #############################1                                    |  45% biopython-1.78       | 2.4 MB    | ###############################3                                  |  48% biopython-1.78       | 2.4 MB    | ###################################6                              |  55% biopython-1.78       | 2.4 MB    | ######################################2                           |  59% biopython-1.78       | 2.4 MB    | ########################################7                         |  63% biopython-1.78       | 2.4 MB    | ############################################2                     |  68% biopython-1.78       | 2.4 MB    | ##############################################3                   |  71% biopython-1.78       | 2.4 MB    | #################################################8                |  77% biopython-1.78       | 2.4 MB    | #####################################################2            |  82% biopython-1.78       | 2.4 MB    | #########################################################1        |  88% biopython-1.78       | 2.4 MB    | ###########################################################6      |  92% biopython-1.78       | 2.4 MB    | ###############################################################1  |  97% biopython-1.78       | 2.4 MB    | ################################################################# | 100% 
+python-3.10.6        | 21.9 MB   |                                                                   |   0% python-3.10.6        | 21.9 MB   | ##6                                                               |   4% python-3.10.6        | 21.9 MB   | #######8                                                          |  12% python-3.10.6        | 21.9 MB   | #############8                                                    |  21% python-3.10.6        | 21.9 MB   | ######################8                                           |  35% python-3.10.6        | 21.9 MB   | ############################5                                     |  44% python-3.10.6        | 21.9 MB   | ######################################2                           |  59% python-3.10.6        | 21.9 MB   | ############################################5                     |  69% python-3.10.6        | 21.9 MB   | ###################################################8              |  80% python-3.10.6        | 21.9 MB   | #########################################################7        |  89% python-3.10.6        | 21.9 MB   | ###############################################################6  |  98% python-3.10.6        | 21.9 MB   | ################################################################# | 100% 
+pip-22.2.2           | 2.4 MB    |                                                                   |   0% pip-22.2.2           | 2.4 MB    | ################7                                                 |  26% pip-22.2.2           | 2.4 MB    | #########################################################8        |  89% pip-22.2.2           | 2.4 MB    | ################################################################# | 100% 
+certifi-2022.9.24    | 154 KB    |                                                                   |   0% certifi-2022.9.24    | 154 KB    | ################################################################# | 100% 
+Preparing transaction: | / - done
+Verifying transaction: | / - \ | / - \ done
+Executing transaction: / - \ | / - \ | / - \ done
+#
+# To activate this environment, use
+#
+#     $ conda activate snowflakes
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+Retrieving notices: ...working... done
+(base) ]0;ankurguglani@TIGER03379: ~[01;32mankurguglani@TIGER03379[00m:[01;34m~[00m$ conda activate snowflakes
+(snowflakes) ]0;ankurguglani@TIGER03379: ~[01;32mankurguglani@TIGER03379[00m:[01;34m~[00m$ conda info --envs
+# conda environments:
+#
+base                     /home/ankurguglani/miniconda3
+mle-dev                  /home/ankurguglani/miniconda3/envs/mle-dev
+snowflakes            *  /home/ankurguglani/miniconda3/envs/snowflakes
+ta-lib-dev               /home/ankurguglani/miniconda3/envs/ta-lib-dev
+
+(snowflakes) ]0;ankurguglani@TIGER03379: ~[01;32mankurguglani@TIGER03379[00m:[01;34m~[00m$ conda activate
+(base) ]0;ankurguglani@TIGER03379: ~[01;32mankurguglani@TIGER03379[00m:[01;34m~[00m$ conda create --name snal[Kkes python=3.9
+Collecting package metadata (current_repodata.json): - \ | done
+Solving environment: - done
+
+## Package Plan ##
+
+  environment location: /home/ankurguglani/miniconda3/envs/snakes
+
+  added / updated specs:
+    - python=3.9
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    pip-22.2.2                 |   py39h06a4308_0         2.3 MB
+    python-3.9.13              |       haa1d7c7_2        20.9 MB
+    ------------------------------------------------------------
+                                           Total:        23.2 MB
+
+The following NEW packages will be INSTALLED:
+
+  _libgcc_mutex      pkgs/main/linux-64::_libgcc_mutex-0.1-main None
+  _openmp_mutex      pkgs/main/linux-64::_openmp_mutex-5.1-1_gnu None
+  ca-certificates    pkgs/main/linux-64::ca-certificates-2022.07.19-h06a4308_0 None
+  certifi            pkgs/main/linux-64::certifi-2022.9.24-py39h06a4308_0 None
+  ld_impl_linux-64   pkgs/main/linux-64::ld_impl_linux-64-2.38-h1181459_1 None
+  libffi             pkgs/main/linux-64::libffi-3.3-he6710b0_2 None
+  libgcc-ng          pkgs/main/linux-64::libgcc-ng-11.2.0-h1234567_1 None
+  libgomp            pkgs/main/linux-64::libgomp-11.2.0-h1234567_1 None
+  libstdcxx-ng       pkgs/main/linux-64::libstdcxx-ng-11.2.0-h1234567_1 None
+  ncurses            pkgs/main/linux-64::ncurses-6.3-h5eee18b_3 None
+  openssl            pkgs/main/linux-64::openssl-1.1.1q-h7f8727e_0 None
+  pip                pkgs/main/linux-64::pip-22.2.2-py39h06a4308_0 None
+  python             pkgs/main/linux-64::python-3.9.13-haa1d7c7_2 None
+  readline           pkgs/main/linux-64::readline-8.1.2-h7f8727e_1 None
+  setuptools         pkgs/main/linux-64::setuptools-63.4.1-py39h06a4308_0 None
+  sqlite             pkgs/main/linux-64::sqlite-3.39.3-h5082296_0 None
+  tk                 pkgs/main/linux-64::tk-8.6.12-h1ccaba5_0 None
+  tzdata             pkgs/main/noarch::tzdata-2022e-h04d1e81_0 None
+  wheel              pkgs/main/noarch::wheel-0.37.1-pyhd3eb1b0_0 None
+  xz                 pkgs/main/linux-64::xz-5.2.6-h5eee18b_0 None
+  zlib               pkgs/main/linux-64::zlib-1.2.12-h5eee18b_3 None
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+python-3.9.13        | 20.9 MB   |                                                                   |   0% python-3.9.13        | 20.9 MB   |                                                                   |   0% python-3.9.13        | 20.9 MB   | ##6                                                               |   4% python-3.9.13        | 20.9 MB   | #########                                                         |  14% python-3.9.13        | 20.9 MB   | #############4                                                    |  21% python-3.9.13        | 20.9 MB   | #################1                                                |  26% python-3.9.13        | 20.9 MB   | #########################2                                        |  39% python-3.9.13        | 20.9 MB   | ##############################3                                   |  47% python-3.9.13        | 20.9 MB   | ####################################9                             |  57% python-3.9.13        | 20.9 MB   | ############################################8                     |  69% python-3.9.13        | 20.9 MB   | ##################################################4               |  78% python-3.9.13        | 20.9 MB   | #######################################################6          |  86% python-3.9.13        | 20.9 MB   | ################################################################# | 100% python-3.9.13        | 20.9 MB   | ################################################################# | 100% 
+pip-22.2.2           | 2.3 MB    |                                                                   |   0% pip-22.2.2           | 2.3 MB    | #########################1                                        |  39% pip-22.2.2           | 2.3 MB    | ################################################################# | 100% pip-22.2.2           | 2.3 MB    | ################################################################# | 100% 
+Preparing transaction: | / done
+Verifying transaction: \ | / - \ | / done
+Executing transaction: \ | / - \ | / - \ | done
+#
+# To activate this environment, use
+#
+#     $ conda activate snakes
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+Retrieving notices: ...working... done
+(base) ]0;ankurguglani@TIGER03379: ~[01;32mankurguglani@TIGER03379[00m:[01;34m~[00m$ conda activate snakes
+(snakes) ]0;ankurguglani@TIGER03379: ~[01;32mankurguglani@TIGER03379[00m:[01;34m~[00m$ conda info--[K[K  [K--envs
+# conda environments:
+#
+base                     /home/ankurguglani/miniconda3
+mle-dev                  /home/ankurguglani/miniconda3/envs/mle-dev
+snakes                *  /home/ankurguglani/miniconda3/envs/snakes
+snowflakes               /home/ankurguglani/miniconda3/envs/snowflakes
+ta-lib-dev               /home/ankurguglani/miniconda3/envs/ta-lib-dev
+
+(snakes) ]0;ankurguglani@TIGER03379: ~[01;32mankurguglani@TIGER03379[00m:[01;34m~[00m$ python --version 
+Python 3.9.13
+(snakes) ]0;ankurguglani@TIGER03379: ~[01;32mankurguglani@TIGER03379[00m:[01;34m~[00m$ conda activate
+(base) ]0;ankurguglani@TIGER03379: ~[01;32mankurguglani@TIGER03379[00m:[01;34m~[00m$ conda search beautifulsoup4
+Loading channels: - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ | / - \ done
+# Name                       Version           Build  Channel             
+beautifulsoup4                 4.6.0          py27_1  pkgs/main           
+beautifulsoup4                 4.6.0  py27h3f86ba9_1  pkgs/main           
+beautifulsoup4                 4.6.0  py35h442a8c9_1  pkgs/main           
+beautifulsoup4                 4.6.0          py36_1  pkgs/main           
+beautifulsoup4                 4.6.0  py36h49b8c8c_1  pkgs/main           
+beautifulsoup4                 4.6.0          py37_1  pkgs/main           
+beautifulsoup4                 4.6.1          py27_0  pkgs/main           
+beautifulsoup4                 4.6.1          py35_0  pkgs/main           
+beautifulsoup4                 4.6.1          py36_0  pkgs/main           
+beautifulsoup4                 4.6.1          py37_0  pkgs/main           
+beautifulsoup4                 4.6.3          py27_0  pkgs/main           
+beautifulsoup4                 4.6.3          py35_0  pkgs/main           
+beautifulsoup4                 4.6.3          py36_0  pkgs/main           
+beautifulsoup4                 4.6.3          py37_0  pkgs/main           
+beautifulsoup4                 4.7.1          py27_1  pkgs/main           
+beautifulsoup4                 4.7.1          py36_1  pkgs/main           
+beautifulsoup4                 4.7.1          py37_1  pkgs/main           
+beautifulsoup4                 4.8.0          py27_0  pkgs/main           
+beautifulsoup4                 4.8.0          py36_0  pkgs/main           
+beautifulsoup4                 4.8.0          py37_0  pkgs/main           
+beautifulsoup4                 4.8.1          py27_0  pkgs/main           
+beautifulsoup4                 4.8.1          py36_0  pkgs/main           
+beautifulsoup4                 4.8.1          py37_0  pkgs/main           
+beautifulsoup4                 4.8.1          py38_0  pkgs/main           
+beautifulsoup4                 4.8.2          py27_0  pkgs/main           
+beautifulsoup4                 4.8.2          py36_0  pkgs/main           
+beautifulsoup4                 4.8.2          py37_0  pkgs/main           
+beautifulsoup4                 4.8.2          py38_0  pkgs/main           
+beautifulsoup4                 4.9.0          py36_0  pkgs/main           
+beautifulsoup4                 4.9.0          py37_0  pkgs/main           
+beautifulsoup4                 4.9.0          py38_0  pkgs/main           
+beautifulsoup4                 4.9.1          py36_0  pkgs/main           
+beautifulsoup4                 4.9.1  py36h06a4308_0  pkgs/main           
+beautifulsoup4                 4.9.1          py37_0  pkgs/main           
+beautifulsoup4                 4.9.1  py37h06a4308_0  pkgs/main           
+beautifulsoup4                 4.9.1          py38_0  pkgs/main           
+beautifulsoup4                 4.9.1  py38h06a4308_0  pkgs/main           
+beautifulsoup4                 4.9.1  py39h06a4308_0  pkgs/main           
+beautifulsoup4                 4.9.3    pyha847dfd_0  pkgs/main           
+beautifulsoup4                 4.9.3    pyhb0f4dca_0  pkgs/main           
+beautifulsoup4                4.10.0    pyh06a4308_0  pkgs/main           
+beautifulsoup4                4.11.1 py310h06a4308_0  pkgs/main           
+beautifulsoup4                4.11.1  py37h06a4308_0  pkgs/main           
+beautifulsoup4                4.11.1  py38h06a4308_0  pkgs/main           
+beautifulsoup4                4.11.1  py39h06a4308_0  pkgs/main           
+(base) ]0;ankurguglani@TIGER03379: ~[01;32mankurguglani@TIGER03379[00m:[01;34m~[00m$ conda search beautifulsoup4[1P beautifulsoup4[1P beautifulsoup4[1P beautifulsoup4[1P beautifulsoup4[1P beautifulsoup4[1P beautifulsoup4i beautifulsoup4n beautifulsoup4s beautifulsoup4t beautifulsoup4a beautifulsoup4l beautifulsoup4l beautifulsoup4
+Collecting package metadata (current_repodata.json): - \ | / - \ done
+Solving environment: / - \ | / - \ | / - \ done
+
+## Package Plan ##
+
+  environment location: /home/ankurguglani/miniconda3
+
+  added / updated specs:
+    - beautifulsoup4
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    beautifulsoup4-4.11.1      |   py39h06a4308_0         185 KB
+    soupsieve-2.3.1            |     pyhd3eb1b0_0          34 KB
+    ------------------------------------------------------------
+                                           Total:         219 KB
+
+The following NEW packages will be INSTALLED:
+
+  beautifulsoup4     pkgs/main/linux-64::beautifulsoup4-4.11.1-py39h06a4308_0 None
+  soupsieve          pkgs/main/noarch::soupsieve-2.3.1-pyhd3eb1b0_0 None
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+soupsieve-2.3.1      | 34 KB     |                                                                   |   0% soupsieve-2.3.1      | 34 KB     | ##############################4                                   |  47% soupsieve-2.3.1      | 34 KB     | ################################################################# | 100% 
+beautifulsoup4-4.11. | 185 KB    |                                                                   |   0% beautifulsoup4-4.11. | 185 KB    | ######################4                                           |  35% beautifulsoup4-4.11. | 185 KB    | ################################################################# | 100% 
+Preparing transaction: / done
+Verifying transaction: \ done
+Executing transaction: / - \ | / - done
+Retrieving notices: ...working... done
+(base) ]0;ankurguglani@TIGER03379: ~[01;32mankurguglani@TIGER03379[00m:[01;34m~[00m$ conda list
+# packages in environment at /home/ankurguglani/miniconda3:
+#
+# Name                    Version                   Build  Channel
+_libgcc_mutex             0.1                        main  
+_openmp_mutex             5.1                       1_gnu  
+beautifulsoup4            4.11.1           py39h06a4308_0  
+blas                      1.0                         mkl  
+bottleneck                1.3.5            py39h7deecbd_0  
+brotli                    1.0.9                h5eee18b_7  
+brotli-bin                1.0.9                h5eee18b_7  
+brotlipy                  0.7.0           py39h27cfd23_1003  
+ca-certificates           2022.07.19           h06a4308_0  
+certifi                   2022.9.24        py39h06a4308_0  
+cffi                      1.15.1           py39h74dc2b5_0  
+charset-normalizer        2.0.4              pyhd3eb1b0_0  
+conda                     22.9.0           py39h06a4308_0  
+conda-package-handling    1.9.0            py39h5eee18b_0  
+cryptography              37.0.1           py39h9ce1e76_0  
+cycler                    0.11.0             pyhd3eb1b0_0  
+dbus                      1.13.18              hb2f20db_0  
+expat                     2.4.9                h6a678d5_0  
+fftw                      3.3.9                h27cfd23_1  
+fontconfig                2.13.1               h6c09931_0  
+fonttools                 4.25.0             pyhd3eb1b0_0  
+freetype                  2.11.0               h70c0345_0  
+giflib                    5.2.1                h7b6447c_0  
+glib                      2.69.1               h4ff587b_1  
+gst-plugins-base          1.14.0               h8213a91_2  
+gstreamer                 1.14.0               h28cd5cc_2  
+icu                       58.2                 he6710b0_3  
+idna                      3.4              py39h06a4308_0  
+intel-openmp              2021.4.0          h06a4308_3561  
+invoke                    1.7.1                    pypi_0    pypi
+joblib                    1.1.0              pyhd3eb1b0_0  
+jpeg                      9e                   h7f8727e_0  
+kiwisolver                1.4.2            py39h295c915_0  
+krb5                      1.19.2               hac12032_0  
+lcms2                     2.12                 h3be6417_0  
+ld_impl_linux-64          2.38                 h1181459_1  
+lerc                      3.0                  h295c915_0  
+libbrotlicommon           1.0.9                h5eee18b_7  
+libbrotlidec              1.0.9                h5eee18b_7  
+libbrotlienc              1.0.9                h5eee18b_7  
+libclang                  10.0.1          default_hb85057a_2  
+libdeflate                1.8                  h7f8727e_5  
+libedit                   3.1.20210910         h7f8727e_0  
+libevent                  2.1.12               h8f2d780_0  
+libffi                    3.3                  he6710b0_2  
+libgcc-ng                 11.2.0               h1234567_1  
+libgfortran-ng            11.2.0               h00389a5_1  
+libgfortran5              11.2.0               h1234567_1  
+libgomp                   11.2.0               h1234567_1  
+libllvm10                 10.0.1               hbcb73fb_5  
+libpng                    1.6.37               hbc83047_0  
+libpq                     12.9                 h16c4e8d_3  
+libstdcxx-ng              11.2.0               h1234567_1  
+libtiff                   4.4.0                hecacb30_0  
+libuuid                   1.0.3                h7f8727e_2  
+libwebp                   1.2.4                h11a3e52_0  
+libwebp-base              1.2.4                h5eee18b_0  
+libxcb                    1.15                 h7f8727e_0  
+libxkbcommon              1.0.1                hfa300c1_0  
+libxml2                   2.9.14               h74e7548_0  
+libxslt                   1.1.35               h4e12654_0  
+lz4-c                     1.9.3                h295c915_1  
+matplotlib                3.5.1            py39h06a4308_1  
+matplotlib-base           3.5.1            py39ha18d171_1  
+mkl                       2021.4.0           h06a4308_640  
+mkl-service               2.4.0            py39h7f8727e_0  
+mkl_fft                   1.3.1            py39hd3c417c_0  
+mkl_random                1.2.2            py39h51133e4_0  
+munkres                   1.1.4                      py_0  
+ncurses                   6.3                  h5eee18b_3  
+nspr                      4.33                 h295c915_0  
+nss                       3.74                 h0370c37_0  
+numexpr                   2.8.3            py39h807cd23_0  
+numpy                     1.23.3           py39h14f4228_0  
+numpy-base                1.23.3           py39h31eccc5_0  
+openssl                   1.1.1q               h7f8727e_0  
+packaging                 21.3               pyhd3eb1b0_0  
+pandas                    1.4.2            py39h295c915_0  
+pcre                      8.45                 h295c915_0  
+pillow                    9.2.0            py39hace64e9_1  
+pip                       22.1.2           py39h06a4308_0  
+ply                       3.11             py39h06a4308_0  
+pycosat                   0.6.3            py39h27cfd23_0  
+pycparser                 2.21               pyhd3eb1b0_0  
+pyopenssl                 22.0.0             pyhd3eb1b0_0  
+pyparsing                 3.0.9            py39h06a4308_0  
+pyqt                      5.15.7           py39h6a678d5_1  
+pyqt5-sip                 12.11.0          py39h6a678d5_1  
+pysocks                   1.7.1            py39h06a4308_0  
+python                    3.9.12               h12debd9_0  
+python-dateutil           2.8.2              pyhd3eb1b0_0  
+pytz                      2022.1           py39h06a4308_0  
+pyyaml                    6.0                      pypi_0    pypi
+qt-main                   5.15.2               h327a75a_7  
+qt-webengine              5.15.9               hd2b0992_4  
+qtwebkit                  5.212                h4eab89a_4  
+readline                  8.1.2                h7f8727e_1  
+requests                  2.28.1           py39h06a4308_0  
+ruamel_yaml               0.15.100         py39h27cfd23_0  
+scikit-learn              1.0.2            py39h51133e4_1  
+scipy                     1.9.1            py39h14f4228_0  
+setuptools                63.4.1           py39h06a4308_0  
+sip                       6.6.2            py39h6a678d5_0  
+six                       1.16.0             pyhd3eb1b0_1  
+soupsieve                 2.3.1              pyhd3eb1b0_0  
+sqlite                    3.39.3               h5082296_0  
+threadpoolctl             2.2.0              pyh0d69192_0  
+tk                        8.6.12               h1ccaba5_0  
+toml                      0.10.2             pyhd3eb1b0_0  
+toolz                     0.11.2             pyhd3eb1b0_0  
+tornado                   6.2              py39h5eee18b_0  
+tqdm                      4.64.1           py39h06a4308_0  
+tzdata                    2022e                h04d1e81_0  
+urllib3                   1.26.11          py39h06a4308_0  
+wheel                     0.37.1             pyhd3eb1b0_0  
+xz                        5.2.6                h5eee18b_0  
+yaml                      0.2.5                h7b6447c_0  
+zlib                      1.2.12               h5eee18b_3  
+zstd                      1.5.2                ha4553b6_0  
+(base) ]0;ankurguglani@TIGER03379: ~[01;32mankurguglani@TIGER03379[00m:[01;34m~[00m$ exit
+exit
+
+Script done on 2022-10-19 19:35:14+05:30 [COMMAND_EXIT_CODE="0"]

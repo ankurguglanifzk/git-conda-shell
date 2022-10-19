@@ -1,0 +1,170 @@
+Script started on 2022-07-13 16:42:59+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+]0;ankurguglani@TIGER03379: ~[01;32mankurguglani@TIGER03379[00m:[01;34m~[00m$ cd
+]0;ankurguglani@TIGER03379: ~[01;32mankurguglani@TIGER03379[00m:[01;34m~[00m$ cd shell-lesson-data/exercise-data/writing
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data/writing[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ cat hail[Kku.txt
+The Tao that is seen
+Is not the true Tao, until
+You bring fresh toner.
+
+With searching comes loss
+and the presence of absence:
+"My Thesis" not found.
+
+Yesterday it worked
+Today it is not working
+Software is like that.
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data/writing[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ grep not haiku.txt
+Is [01;31m[Knot[m[K the true Tao, until
+"My Thesis" [01;31m[Knot[m[K found.
+Today it is [01;31m[Knot[m[K working
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data/writing[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ grep not haiku.txt[1P[1P[1P[C[1P haiku.txt[C haiku.txtT haiku.txth haiku.txte haiku.txt
+[01;31m[KThe[m[K Tao that is seen
+"My [01;31m[KThe[m[Ksis" not found.
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data/writing[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ grep The haiku.txt[Kgrep The haiku.txt[C[1@ [1@-[1@w[C[1@ [1P
+[01;31m[KThe[m[K Tao that is seen
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data/writing[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ grep -w The haiku.txt[1P haiku.txt[1P haiku.txt[1P haiku.txti haiku.txts haiku.txt[C haiku.txtn haiku.txto haiku.txtt haiku.txt" haiku.txt[1@"
+Today it [01;31m[Kis not[m[K working
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data/writing[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ grep -w "is not" haiku.txt[1P[1@t[C[C[C[C[C[C[C[C[1@\[1P[1P[1P[1P[1P
+grep: invalid option -- 't'
+Usage: grep [OPTION]... PATTERNS [FILE]...
+Try 'grep --help' for more information.
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data/writing[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ grep -t "it" haiku.txt[1P[1@n
+[32m[K5[m[K[36m[K:[m[KW[01;31m[Kit[m[Kh searching comes loss
+[32m[K9[m[K[36m[K:[m[KYesterday [01;31m[Kit[m[K worked
+[32m[K10[m[K[36m[K:[m[KToday [01;31m[Kit[m[K is not working
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data/writing[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ grep -n "it" haiku.txt[1@-[1@w[1@ [C[C[C[1P[1P[1@t[1@h[1@e
+[32m[K2[m[K[36m[K:[m[KIs not [01;31m[Kthe[m[K true Tao, until
+[32m[K6[m[K[36m[K:[m[Kand [01;31m[Kthe[m[K presence of absence:
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data/writing[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ grep -n -w "the" haiku.txt[C[1@ [1@-[1@i
+[32m[K1[m[K[36m[K:[m[K[01;31m[KThe[m[K Tao that is seen
+[32m[K2[m[K[36m[K:[m[KIs not [01;31m[Kthe[m[K true Tao, until
+[32m[K6[m[K[36m[K:[m[Kand [01;31m[Kthe[m[K presence of absence:
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data/writing[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ grep -n -w -i "the" haiku.txt[1P[1@v
+[32m[K1[m[K[36m[K:[m[KThe Tao that is seen
+[32m[K3[m[K[36m[K:[m[KYou bring fresh toner.
+[32m[K4[m[K[36m[K:[m[K
+[32m[K5[m[K[36m[K:[m[KWith searching comes loss
+[32m[K7[m[K[36m[K:[m[K"My Thesis" not found.
+[32m[K8[m[K[36m[K:[m[K
+[32m[K9[m[K[36m[K:[m[KYesterday it worked
+[32m[K10[m[K[36m[K:[m[KToday it is not working
+[32m[K11[m[K[36m[K:[m[KSoftware is like that.
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data/writing[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ grep -r Yesr[Kterday  .
+[35m[K./haiku.txt[m[K[36m[K:[m[K[01;31m[KYesterday[m[K it worked
+[35m[K./LittleWomen.txt[m[K[36m[K:[m[K"[01;31m[KYesterday[m[K, when Aunt was asleep and I was trying to be as still as a
+[35m[K./LittleWomen.txt[m[K[36m[K:[m[K[01;31m[KYesterday[m[K at dinner, when an Austrian officer stared at us and then
+[35m[K./LittleWomen.txt[m[K[36m[K:[m[K[01;31m[KYesterday[m[K was a quiet day spent in teaching, sewing, and writing in my
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data/writing[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ grep --help
+Usage: grep [OPTION]... PATTERNS [FILE]...
+Search for PATTERNS in each FILE.
+Example: grep -i 'hello world' menu.h main.c
+PATTERNS can contain multiple patterns separated by newlines.
+
+Pattern selection and interpretation:
+  -E, --extended-regexp     PATTERNS are extended regular expressions
+  -F, --fixed-strings       PATTERNS are strings
+  -G, --basic-regexp        PATTERNS are basic regular expressions
+  -P, --perl-regexp         PATTERNS are Perl regular expressions
+  -e, --regexp=PATTERNS     use PATTERNS for matching
+  -f, --file=FILE           take PATTERNS from FILE
+  -i, --ignore-case         ignore case distinctions in patterns and data
+      --no-ignore-case      do not ignore case distinctions (default)
+  -w, --word-regexp         match only whole words
+  -x, --line-regexp         match only whole lines
+  -z, --null-data           a data line ends in 0 byte, not newline
+
+Miscellaneous:
+  -s, --no-messages         suppress error messages
+  -v, --invert-match        select non-matching lines
+  -V, --version             display version information and exit
+      --help                display this help text and exit
+
+Output control:
+  -m, --max-count=NUM       stop after NUM selected lines
+  -b, --byte-offset         print the byte offset with output lines
+  -n, --line-number         print line number with output lines
+      --line-buffered       flush output on every line
+  -H, --with-filename       print file name with output lines
+  -h, --no-filename         suppress the file name prefix on output
+      --label=LABEL         use LABEL as the standard input file name prefix
+  -o, --only-matching       show only nonempty parts of lines that match
+  -q, --quiet, --silent     suppress all normal output
+      --binary-files=TYPE   assume that binary files are TYPE;
+                            TYPE is 'binary', 'text', or 'without-match'
+  -a, --text                equivalent to --binary-files=text
+  -I                        equivalent to --binary-files=without-match
+  -d, --directories=ACTION  how to handle directories;
+                            ACTION is 'read', 'recurse', or 'skip'
+  -D, --devices=ACTION      how to handle devices, FIFOs and sockets;
+                            ACTION is 'read' or 'skip'
+  -r, --recursive           like --directories=recurse
+  -R, --dereference-recursive  likewise, but follow all symlinks
+      --include=GLOB        search only files that match GLOB (a file pattern)
+      --exclude=GLOB        skip files that match GLOB
+      --exclude-from=FILE   skip files that match any file pattern from FILE
+      --exclude-dir=GLOB    skip directories that match GLOB
+  -L, --files-without-match  print only names of FILEs with no selected lines
+  -l, --files-with-matches  print only names of FILEs with selected lines
+  -c, --count               print only a count of selected lines per FILE
+  -T, --initial-tab         make tabs line up (if needed)
+  -Z, --null                print 0 byte after FILE name
+
+Context control:
+  -B, --before-context=NUM  print NUM lines of leading context
+  -A, --after-context=NUM   print NUM lines of trailing context
+  -C, --context=NUM         print NUM lines of output context
+  -NUM                      same as --context=NUM
+      --color[=WHEN],
+      --colour[=WHEN]       use markers to highlight the matching strings;
+                            WHEN is 'always', 'never', or 'auto'
+  -U, --binary              do not strip CR characters at EOL (MSDOS/Windows)
+
+When FILE is '-', read standard input.  With no FILE, read '.' if
+recursive, '-' otherwise.  With fewer than two FILEs, assume -h.
+Exit status is 0 if any line (or file if -L) is selected, 1 otherwise;
+if any error occurs and -q is not given, the exit status is 2.
+
+Report bugs to: bug-grep@gnu.org
+GNU grep home page: <http://www.gnu.org/software/grep/>
+General help using GNU software: <https://www.gnu.org/gethelp/>
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data/writing[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ find  .
+.
+./haiku.txt
+./haiku.txt:Zone.Identifier
+./LittleWomen.txt
+./LittleWomen.txt:Zone.Identifier
+./,,
+./,,/project
+./,,/project/results
+./thesis_backup
+./thesis_backup/quotations.txt
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data/writing[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ find . -type d
+.
+./,,
+./,,/project
+./,,/project/results
+./thesis_backup
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data/writing[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ find . -type d[Kf
+./haiku.txt
+./haiku.txt:Zone.Identifier
+./LittleWomen.txt
+./LittleWomen.txt:Zone.Identifier
+./thesis_backup/quotations.txt
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data/writing[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ find . -type f[C[C[K[K[K[K[K[K[Kname* *[C.txt
+.
+./haiku.txt
+./haiku.txt:Zone.Identifier
+./LittleWomen.txt
+./LittleWomen.txt:Zone.Identifier
+./,,
+./,,/project
+./,,/project/results
+./thesis_backup
+./thesis_backup/quotations.txt
+find: ‘name’: No such file or directory
+LittleWomen.txt
+haiku.txt
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data/writing[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data/writing[00m$ exit
+exit
+
+Script done on 2022-07-13 16:53:10+05:30 [COMMAND_EXIT_CODE="1"]

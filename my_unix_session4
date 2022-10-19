@@ -1,0 +1,118 @@
+Script started on 2022-07-13 14:59:01+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data/creatures[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data/creatures[00m$ head -n 5 basilisk.dat ,[Kmi[K]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data/creatures[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data/creatures[00m$ head -n 5 basilisk.dat minotaur.dat unicorn,dat[C[1Pdat.dat
+==> basilisk.dat <==
+COMMON NAME: basilisk
+CLASSIFICATION: basiliscus vulgaris
+UPDATED: 1745-05-02
+CCCCAACGAG
+GAAACAGATC
+
+==> minotaur.dat <==
+COMMON NAME: minotaur
+CLASSIFICATION: bos hominus
+UPDATED: 1765-02-17
+CCCGAAGGAC
+CGACATCTCT
+
+==> unicorn.dat <==
+COMMON NAME: unicorn
+CLASSIFICATION: equus monoceros
+UPDATED: 1738-11-24
+AGCCGGGTCG
+CTTTACCTTA
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data/creatures[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data/creatures[00m$ for filename in basilisk.data[K minotaur.dat unicorn.dat
+> do
+> head -n 2 $filename | tail -n 1
+> done
+CLASSIFICATION: basiliscus vulgaris
+CLASSIFICATION: bos hominus
+CLASSIFICATION: equus monoceros
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data/creatures[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data/creatures[00m$ echo hello there
+hello there
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data/creatures[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data/creatures[00m$ for filr[Kename in *.dat
+> do'[K
+>   cp $filename original [K-$filename
+> done
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data/creatures[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data/creatures[00m$ cp basilisk,[K.dat original [K-basilisk.dat
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data/creatures[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data/creatures[00m$ cp basilisk.dat original-basilisk.dat[1P[1P[1P[1P[1P[1P[1P[1P[1@m[1@i[1@n[1@o[1@t[1@a[1@u[1@r[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P.dat[1P.dat[1P.dat[1P.dat[1P.dat[1P.dat[1P.dat[1P.datm.dati.datn.dato.datt.data.datu.datr.dat
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data/creatures[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data/creatures[00m$ cp minotaur.dat original-minotaur.dat[1P[1P[1P[1P[1P[1P[1P[1P[1@u[1@n[1@i[1@c[1@o[1@r[1@n[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P.dat[1P.dat[1P.dat[1P.dat[1P.dat[1P.dat[1P.dat[1P.datu.datn.dati.datc.dato.datr.datn.dat
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data/creatures[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data/creatures[00m$ cd north-pacigic-gyre
+bash: cd: north-pacigic-gyre: No such file or directory
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data/creatures[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data/creatures[00m$ cd shell-lesson-data[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kpwd
+/home/ankurguglani/shell-lesson-data/exercise-data/creatures
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data/creatures[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data/creatures[00m$ ls -F shell-lesson-data
+ls: cannot access 'shell-lesson-data': No such file or directory
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data/creatures[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data/creatures[00m$ cd shell[K[K[K[K[K
+]0;ankurguglani@TIGER03379: ~[01;32mankurguglani@TIGER03379[00m:[01;34m~[00m$ pwd
+/home/ankurguglani
+]0;ankurguglani@TIGER03379: ~[01;32mankurguglani@TIGER03379[00m:[01;34m~[00m$ cs[Kd shell-lesson-data
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data[00m$ cs [K[Kd exercise=data
+bash: cd: exercise=data: No such file or directory
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data[00m$ cd exercise=data[C[C[1Pdata_data[1Pdata-data
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data[00m$ cd north-pacific-gyre
+bash: cd: north-pacific-gyre: No such file or directory
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data[00m$ pwd
+/home/ankurguglani/shell-lesson-data/exercise-data
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data/exercise-data[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/exercise-data[00m$ cd
+]0;ankurguglani@TIGER03379: ~[01;32mankurguglani@TIGER03379[00m:[01;34m~[00m$ cd shell-lesson-data
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data[00m$ cd north-pacific-gyre
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data/north-pacific-gyre[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/north-pacific-gyre[00m$ for datafile in NENE*A.txt NENE*B,[K.txt
+> do
+>  echo $datafile
+> done
+NENE01729A.txt
+NENE01736A.txt
+NENE01751A.txt
+NENE01812A.txt
+NENE01843A.txt
+NENE01978A.txt
+NENE02040A.txt
+NENE02043A.txt
+NENE01729B.txt
+NENE01751B.txt
+NENE01843B.txt
+NENE01978B.txt
+NENE02018B.txt
+NENE02040B.txt
+NENE02043B.txt
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data/north-pacific-gyre[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/north-pacific-gyre[00m$ for datafile in NENE*A.txt NENE*B.txt; do  echo $datafile; done[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+> do
+>    echo $datafile stats-$datafile
+> done
+NENE01729A.txt stats-NENE01729A.txt
+NENE01736A.txt stats-NENE01736A.txt
+NENE01751A.txt stats-NENE01751A.txt
+NENE01812A.txt stats-NENE01812A.txt
+NENE01843A.txt stats-NENE01843A.txt
+NENE01978A.txt stats-NENE01978A.txt
+NENE02040A.txt stats-NENE02040A.txt
+NENE02043A.txt stats-NENE02043A.txt
+NENE01729B.txt stats-NENE01729B.txt
+NENE01751B.txt stats-NENE01751B.txt
+NENE01843B.txt stats-NENE01843B.txt
+NENE01978B.txt stats-NENE01978B.txt
+NENE02018B.txt stats-NENE02018B.txt
+NENE02040B.txt stats-NENE02040B.txt
+NENE02043B.txt stats-NENE02043B.txt
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data/north-pacific-gyre[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/north-pacific-gyre[00m$ for datafile in NENE*A.txt NENE*B.txt; do    echo $datafile stats-$datafile; done[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kfor datafile in NENE*A.txt NENE*B.txt; do  echo $datafile; done[1P[1P[1P[1P[1P[1@b[1@a[1@s[1@h[C[1@ [1@g[1@o[1@o[1@s[1@t[1@a[1@t[1@s[1@.[1@s[1@h[C[C[C[C[C[C[C[C[C[C[1@ [1@s[1@t[1@s[1P[1@a[1@t[1@s[1@-[1@$[1@d[1@a[1@t[1@a[1@f[1@i[1@l[1@e
+^[[A    ]0;ankurguglani@TIGER03379: ~/shell-lesson-data/north-pacific-gyre[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/north-pacific-gyre[00m$ for datafile in NENE*A.txt NENE*B.txt; do bash goostats.sh $datafile stats-$datafile; done[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kecho $datafile;^C
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data/north-pacific-gyre[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/north-pacific-gyre[00m$ for datafile in NENE*A.txt NENE*B.txt; do bash goostats.sh $datafile stats-$datafile; done[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kecho $datafile;[Kfor datafile in NENE*A.txt NENE*B.txt; do echo $datafile;bash goostats.sh $datafile sts[Kats-$datafile;done [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ke
+NENE01729A.txt
+NENE01736A.txt
+NENE01751A.txt
+NENE01812A.txt
+NENE01843A.txt
+NENE01978A.txt
+NENE02040A.txt
+NENE02043A.txt
+NENE01729B.txt
+NENE01751B.txt
+NENE01843B.txt
+NENE01978B.txt
+NENE02018B.txt
+NENE02040B.txt
+NENE02043B.txt
+]0;ankurguglani@TIGER03379: ~/shell-lesson-data/north-pacific-gyre[01;32mankurguglani@TIGER03379[00m:[01;34m~/shell-lesson-data/north-pacific-gyre[00m$ exit
+exit
+
+Script done on 2022-07-13 16:06:48+05:30 [COMMAND_EXIT_CODE="0"]
